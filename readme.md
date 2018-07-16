@@ -7,7 +7,11 @@ This is a multiple word highlighter for chrome where keywords can be fetched fro
 3. support highlighting contents across mulitple HTML tag, i.e. `<span>exam<b>ple</b></span>`
 4. can get keywords directly from your mysql database
 
-# TODO
+# PHP FILE
+There is a php file - loaddata.php , paste it on your server 
+and a sql file , import it in mysql 
+
+# TO DO
 1. calculate a contrast color for the highlighted text
 
 Reference:
