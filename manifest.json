@@ -12,14 +12,14 @@
       "default_popup": "popup.html"
    },
 
-   "permissions": [ "tabs", "http://*/*","http://192.168.1.200/*","https://*/*","https://192.168.1.200/*", "storage" ],
+   "permissions": [ "tabs", "http://*/*","https://*/*", "storage" ],
 
    "content_scripts": [ {
       "all_frames": true,
       "css": [ "css/highlight.css" ],
       "js": [ "js/content-action.js" ],
       "run_at": "document_idle",
-      "matches": [ "http://*/*","https://*/*","http://192.168.1.200/*", "https://192.168.1.200/*", "file://*/*" ]
+      "matches": [ "http://*/*","https://*/*", "file://*/*" ]
    } ],
 
    "update_url": "https://clients2.google.com/service/update2/crx",
