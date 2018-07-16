@@ -1,6 +1,6 @@
 {
-   "name": "Multi-word highlight by shank V0.2",
-   "description": "Highlight multiple keywords words connected to a local db - crafted by shank ",
+   "name": "Multi-word highlight ",
+   "description": "Highlight multiple keywords words connected to a local db ",
    "icons": {
       "100": "img/100x100.png",
       "128": "img/128x128.png",
