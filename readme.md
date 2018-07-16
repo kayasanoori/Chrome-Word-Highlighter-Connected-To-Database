@@ -1,3 +1,6 @@
+Chrome-Word-Highlighter-Connected-To-Database
+This is a multiple word highlighter for chrome where keywords can be fetched from MySQL database
+
 # Features
 1. support multiple user defined groups
 2. support multiple words inside a group
